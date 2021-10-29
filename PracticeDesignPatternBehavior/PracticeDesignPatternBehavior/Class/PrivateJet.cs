@@ -14,7 +14,7 @@ namespace PracticeDesignPatternBehavior.Class
         }
         public string ConnectionToPassangerAirliner()
         {
-            return $"Start the connection\n{this._communication.CommunicationBetween(this, "PassangerAirliner")}";
+            return $"Start the connection\n{this._communication.CommunicationBetween(this, "Connection")}";
         }
 
         public override string TypeAirplane()
@@ -25,6 +25,10 @@ namespace PracticeDesignPatternBehavior.Class
         public override void TypeOfConnection(int NumberFrecuency)
         {
             Frecuency = NumberFrecuency;
+        }
+        public override string Help()
+        {
+            return _communication.CommunicationBetween(this,"Help");
         }
     }
 }

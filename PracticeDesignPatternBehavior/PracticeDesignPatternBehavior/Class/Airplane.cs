@@ -10,13 +10,9 @@ namespace PracticeDesignPatternBehavior.Class
         private int _frecuency;
         public int Frecuency {
             set { _frecuency = value; }
+            get { return _frecuency; }
         }
         protected ICommunication _communication;
-
-        /*public Airplane(ICommunication Communication=null)
-        {
-            this._communication = Communication;
-        }*/
         public void ConnetionToControlTower(ICommunication Communication)
         {
             this._communication = Communication;
@@ -24,6 +20,10 @@ namespace PracticeDesignPatternBehavior.Class
         public virtual string ConnectionWithOtherAirplane(Airplane TypeAirplane) 
         {
             return $"Connect in frecuency {_frecuency}\nType of {TypeAirplane.TypeAirplane()}\n";
+        }
+        public virtual string Help()
+        {
+            return "Connection with Control Tower\nSend:S.O.S\n";
         }
         public abstract void TypeOfConnection(int NumberFrecuency);
         public abstract string TypeAirplane();

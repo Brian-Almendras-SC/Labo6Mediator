@@ -7,15 +7,17 @@ namespace PracticeDesignPatternBehavior
     {
         static void Main(string[] args)
         {
-            PassangerAirlaner a = new PassangerAirlaner();
-            PrivateJet c = new PrivateJet();
+            PassangerAirlaner passangerAirlaner  = new PassangerAirlaner();
+            Helicopter helicopter = new Helicopter();
+            PrivateJet privateJet = new PrivateJet();
 
-            new ControlTower(a,c);
-            a.TypeOfConnection(100);
-            c.TypeOfConnection(101);
-            Console.WriteLine(a.ConnectionToPrivateJet());
-            Console.WriteLine(c.ConnectionToPassangerAirliner());
-            Console.WriteLine("Hello World!");
+            new ControlTower(passangerAirlaner, privateJet,helicopter);
+            passangerAirlaner.TypeOfConnection(100);
+            privateJet.TypeOfConnection(101);
+            Console.WriteLine(passangerAirlaner.ConnectionToPrivateJet());
+            Console.WriteLine(privateJet.ConnectionToPassangerAirliner());
+
+            Console.WriteLine(passangerAirlaner.Help());
         }
     }
 }

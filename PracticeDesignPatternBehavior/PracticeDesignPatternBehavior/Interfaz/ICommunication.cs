@@ -7,6 +7,6 @@ namespace PracticeDesignPatternBehavior.Interfaz
 {
     public interface ICommunication
     {
-         abstract string CommunicationBetween(Airplane TypeAirplane, string Action);
+        abstract string CommunicationBetween(Airplane TypeAirplane, string Action);
     }
 }

@@ -1253,6 +1253,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "PracticeDesignPatternBehavior/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PracticeDesignPatternBehavior.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PracticeDesignPatternBehavior.dll": {}
+        }
       }
     }
   },
@@ -4891,6 +4901,11 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "PracticeDesignPatternBehavior/1.0.0": {
+      "type": "project",
+      "path": "../PracticeDesignPatternBehavior/PracticeDesignPatternBehavior.csproj",
+      "msbuildProject": "../PracticeDesignPatternBehavior/PracticeDesignPatternBehavior.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4898,6 +4913,7 @@
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
+      "PracticeDesignPatternBehavior >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -4931,7 +4947,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Arquitectura de sotfware\\Tarea 6\\Labo6Mediator\\PracticeDesignPatternBehavior\\PracticeDesignPatternBehavior\\PracticeDesignPatternBehavior.csproj": {
+              "projectPath": "D:\\Arquitectura de sotfware\\Tarea 6\\Labo6Mediator\\PracticeDesignPatternBehavior\\PracticeDesignPatternBehavior\\PracticeDesignPatternBehavior.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

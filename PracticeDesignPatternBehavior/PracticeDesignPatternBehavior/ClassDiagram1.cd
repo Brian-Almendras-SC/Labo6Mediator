@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PracticeDesignPatternBehavior.Class.Airplane">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAAAACAAAAAACAAABAAAAAAAAAAAggE=</HashCode>
+      <FileName>Class\Airplane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeDesignPatternBehavior.Class.ControlTower">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAgAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\ControlTower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PracticeDesignPatternBehavior.Class.Helicopter">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAAAAAAAAAAAACAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Helicopter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeDesignPatternBehavior.Class.PassangerAirlaner">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAAQAAAAAAAACAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\PassangerAirlaner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PracticeDesignPatternBehavior.Class.PrivateJet">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAIIAAAAAAAAAAAACAAABAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Class\PrivateJet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PracticeDesignPatternBehavior.Interfaz.ICommunication">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaz\ICommunication.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
