@@ -1,5 +1,5 @@
 # Labo6Mediator
-## Patron de disñeo Mediator
+## Patron de diseño Mediator
 
 Mediator es un patrón de diseño de comportamiento que te permite reducir las dependencias caóticas entre objetos. El patrón restringe las comunicaciones directas entre los objetos, forzándolos a colaborar únicamente a través de un objeto mediador.
 
@@ -16,3 +16,8 @@ Ventajas</br>
 
 Desventajas</br>
 1. Se puede volver un objeto todopoderoso o un componente indispensable.</br>
+
+
+Descripción del problema
+
+Creacion de una red de comunicaciones entre distintos tipos de aviones mediante una torre de control, permitiendo que cada tipo de avion puedan comunicarse con otros sin necesidad de incorpar funcionalidades unicas e innecesarias para comunicarse con otros tipos de aviones. Incorparando las funcionalidades disponibles del avion a la lista del torre de control para determinar si es posible o no. 
